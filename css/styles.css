@@ -773,7 +773,7 @@ h3.my-profession {
     max-width: 50%;
   }
 }
-@media (max-width: 911px) {
+@media (max-width: 911px), (max-width: 1024px) {
   .contact .contact-info-item,
   .portfolio .portfolio-item,
   .service .service-item,
@@ -806,3 +806,4 @@ h3.my-profession {
     left: 2px;
   }
 }
+
