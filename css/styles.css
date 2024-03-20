@@ -128,10 +128,11 @@ ul {
   display: inline-block;
   white-space: nowrap;
   transition: 0.3s ease;
-  border: non;
+  border: none;
 }
 .btn:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 20px var(--skin-color);
 }
 .shadow-dark {
   box-shadow: 0 0 20px rgba(48, 46, 47, 0.15);
@@ -573,6 +574,7 @@ h3.my-profession {
   cursor: pointer;
   transition: all 0.3s ease;
   text-align: center;
+  position: relative;
 }
 .portfolio .portfolio-item-inner:hover {
   transform: translateY(-10px);
@@ -583,12 +585,17 @@ h3.my-profession {
   display: block;
 }
 .portfolio .portfolio-item-inner p {
-  font-family: serif;
-  font-size: 18px;
   color: var(--skin-color);
   font-weight: 700;
+  font-size: 18px;
+  transform: translateY(100%);
+  transition: all .3s ease;
 }
-
+.portfolio .portfolio-item-inner:hover p{
+  transform: translateY(0);
+  font-size: 20px;
+  
+}
 /* Coworkers */
 .coworker .service-item {
   margin-bottom: 30px;
