@@ -588,14 +588,9 @@ h3.my-profession {
   color: var(--skin-color);
   font-weight: 700;
   font-size: 18px;
-  transform: translateY(100%);
-  transition: all .3s ease;
-}
-.portfolio .portfolio-item-inner:hover p{
-  transform: translateY(0);
   font-size: 20px;
-  
 }
+
 /* Coworkers */
 .coworker .service-item {
   margin-bottom: 30px;
