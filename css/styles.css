@@ -508,6 +508,7 @@ h3.my-profession {
   padding: 30px 15px;
   text-align: center;
   transition: all 0.3s ease;
+  height: 270px;
 }
 .service .service-item .service-item-inner:hover {
   box-shadow: 0 0 20px rgba(48, 46, 787, 0.15);
